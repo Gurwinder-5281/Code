@@ -1,0 +1,101 @@
+<html>
+<head>
+    <title>Patient Admission Form</title>
+    <style>
+        input, select {
+            width:200px;
+        }
+        td {
+            padding: 10px 50px; 
+        }
+
+        table {
+            border-spacing: px 40px; 
+        }
+    </style>
+    <table width ="100%"style="background-color: #35b7fded;">
+        <tr>
+     <td style="width: 40;"><h2 style=" text-align: left;">Main Campus <br>Hospital</h2>
+    </td>
+    <td><h1 style="text-align:center;">Patient Admission Form</h1></td>
+        </tr>
+    </table>
+
+</head>
+ <br><br><br>
+<body style="background-color:whitesmoke; color: black;">
+   <div style="background-color: #00BFFF;"text-align: center; color:white; text-align: center; padding:30px; font-weight: bold;>Patient Admission Form
+    </div>
+
+    <form>
+
+        <table>
+            <tr>
+                <td><label for="full Name">First Name:</label></td>
+                <td><input type="text" id="fullName" name="fullName"></td>
+            </tr>
+            <tr>
+                <td><label for="Given Name">Given Name:</label></td>
+                <td><input type="text" id="Given Name" name="Given Name"></td>
+                <td><label for="Age">Age:</label></td>
+                <td><input type="number" id="Age" name="Age"></td>
+            </tr>
+            <tr>
+                <td><label for="Ethnicity">Ethnicity:</label></td>
+                <td>
+                    <select id="Ethnicity" name="Ethnicity">
+                        <option value="">Select</option>
+                        <option value="Asian">Asian</option>
+                        <option value="Black">Black</option>
+                        <option value="White">White</option>
+                        <option value="Hispanic">Hispanic</option>
+                        <option value="Mixed">Mixed</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </td>
+                <td><label for="Gender">Gender</label></td>
+                <td>
+                    <select id="Gender" name="Gender">
+                        <option value="">Select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Residential Address">Residential Address:</label></td>
+                <td><input type="text" id="Residential Address" name="Residential Address"></td>
+                <td><label for="Blood Group">Blood Group:</label></td>
+                <td>
+                    <select id="Blood Group" name="Blood Group">
+                        <option>Select</option>
+                        <option>A+</option>
+                        <option>A-</option>
+                        <option>B+</option>
+                        <option>B-</option>
+                        <option>O+</option>
+                        <option>O-</option>
+                        <option>AB+</option>
+                        <option>AB-</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Email Address">Email Address:</label></td>
+                <td><input type="email" id="Email Address" name="Email Address"></td>  
+                <td><label for="Telephone">Telephone:</label></td>
+                <td><input type="number" id="Telephone" name="Telephone"></td>  
+            </tr>
+        </table>
+        <br><br>
+        <div style="text-align: center;">
+    <button type="submit">Save</button>
+    <br><br>
+    <div style="background-color: #35b7fded; color: white; text-align: center; padding: 10px; font-weight: bold;">
+    Made by Jaskaran Singh
+</div>
+
+        </div>
+    </form>
+</body>
+</html>
